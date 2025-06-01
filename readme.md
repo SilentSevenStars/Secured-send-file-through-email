@@ -81,6 +81,8 @@ The system decrypts the key and file, and sends the result via email.
 
 ## Members
 Joseph Matthew Ringor - Leader
+
 Ejay Basinga
+
 Aaron John Palad
 
