@@ -20,12 +20,12 @@ This project is a **GUI-based Secure File Transfer System** built using Python. 
 Install Python packages:
 pip install -r requirements.txt
 
+## Run
+![image alt](https://github.com/SilentSevenStars/Secured-send-file-through-email/blob/main/image/homepage.png?raw=true)
+
 Step 1: Generate RSA Keys
 Run the application:
 
-bash
-Copy
-Edit
 python main.py
 Click on "Generate keys".
 
@@ -54,6 +54,8 @@ Click "Send Encrypted".
 
 The file is encrypted, a random Fernet key is generated, and the key is encrypted using RSA. Both the encrypted file and key are emailed to the recipient.
 
+![image alt](https://github.com/SilentSevenStars/Secured-send-file-through-email/blob/main/image/encryptpage.png?raw=true)
+
 Step 3: Decrypt Received File
 Click "Decrypt files".
 
@@ -74,4 +76,11 @@ Receiver email (who should receive the decrypted file)
 Click "Decrypt File".
 
 The system decrypts the key and file, and sends the result via email.
+
+![image alt](https://github.com/SilentSevenStars/Secured-send-file-through-email/blob/main/image/decryptpage.png?raw=true)
+
+## Members
+Joseph Matthew Ringor - Leader
+Ejay Basinga
+Aaron John Palad
 
